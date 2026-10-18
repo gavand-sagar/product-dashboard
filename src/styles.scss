@@ -1,1 +1,24 @@
-/* You can add global styles to this file, and also import other style files */
+/* Global base styles — component styles stay inside each component */
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+}
+button {
+  font: inherit;
+  cursor: pointer;
+  padding: 6px 12px;
+  border: 1px solid #e5e7eb;
+  border-radius: 8px;
+  background: #fff;
+}
+button.primary {
+  background: #c3002f;
+  border-color: #c3002f;
+  color: #fff;
+}
+button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}

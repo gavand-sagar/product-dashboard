@@ -9,6 +9,7 @@ work with the reference, or catch up if you fall behind.
 | Branch | Session | Lab |
 |---|---|---|
 | `lab-00-start` | before S1 | Fresh `ng new` project (starting point) |
+| `day1-components` | Day 1 (alt) | 9 reusable components: inputs, outputs, @if/@for/@switch, composed into a catalog page |
 | `lab-01-app-shell` | S1 · Sat 17 Oct | Product Dashboard application shell |
 | `lab-02-components` | S2 · Sun 18 Oct | Product List → Product Card → Product Details |
 | `lab-03-signals-cart` | S2 · Sun 18 Oct | Reactive Shopping Cart (signals) |
